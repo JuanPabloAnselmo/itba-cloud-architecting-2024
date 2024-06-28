@@ -3,5 +3,6 @@ Crear un script de bash que ejecute uno o varios scripts SQL que creen las tabla
 
 Creo archivo sql donde tengo la query para la creacion de la tabla. Ademas creo un script bash **setup_sql.sh** para levantar el contenedor y crear la tabla.
 
+### Respuesta:
 Modo de uso
 - Correr el archivo **setup_sql.sh**
