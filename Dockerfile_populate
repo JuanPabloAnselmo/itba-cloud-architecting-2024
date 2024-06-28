@@ -1,0 +1,12 @@
+FROM python:3.8-slim
+
+# Instalar las dependencias necesarias
+RUN pip install psycopg2-binary pandas sqlalchemy
+
+WORKDIR /app
+
+# Copiar ambos scripts al contenedor
+COPY populate_db.py .
+
+# Comando para ejecutar el script seleccionado
+CMD ["python", "populate_db.py"]
