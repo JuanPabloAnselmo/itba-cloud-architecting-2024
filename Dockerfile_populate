@@ -9,4 +9,4 @@ WORKDIR /app
 COPY populate_db.py .
 
 # Comando para ejecutar el script seleccionado
-CMD ["python", "populate_db.py"]
+CMD ['python', "populate_db.py"]

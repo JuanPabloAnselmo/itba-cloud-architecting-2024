@@ -88,7 +88,7 @@ def main():
     user = "postgres"
     password = "postgres"
     db = "postgres"
-    host = "postgres"
+    host = "postgres_db"
     port = "5432"
     data_url = "e_commerce.csv"
 
