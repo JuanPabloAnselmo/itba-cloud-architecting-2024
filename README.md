@@ -1,6 +1,15 @@
-# Repositorio de TP Final de la sección Foundations del Módulo 1 de la Diplomatura en Cloud Data Engineering del ITBA
+# Ejercicio 5: Consultas a la base de datos
+Escribir un script de Python que realice al menos 5 consultas SQL que puedan agregar valor al negocio y muestre por pantalla un reporte con los resultados.
+
+Este script de reporting debe correrse mediante una imagen de Docker con docker run del mismo modo que el script del ejercicio 4.
+
+# Ejercicio 6: Documentación y ejecución end2end
+Agregue una sección al README.md comentando como resolvió los ejercicios, linkeando al archivo con la descripción del dataset y explicando como ejecutar un script de BASH para ejecutar todo el proceso end2end desde la creación del container, operaciones de DDL, carga de datos y consultas. Para esto crear el archivo de BASH correspondiente.
 
 Este repositorio contiene scripts y archivos necesarios para configurar y ejecutar un entorno de análisis de datos utilizando Docker y PostgreSQL. A continuación se describe el propósito y uso de cada archivo y script incluido.
+
+## Nota
+Cree directamente el archivo Dockerfile y el script para realizar el reporte de las queries. Al realizarlo, tambien cree el script bash para automatizar todos los pasos del TP. Por eso coloque los dos ejercicios juntos
 
 ## Archivos y Scripts
 
