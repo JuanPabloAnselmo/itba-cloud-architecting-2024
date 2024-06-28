@@ -7,6 +7,11 @@ WORKDIR /app
 
 # Copiar ambos scripts al contenedor
 COPY populate_db.py .
+COPY reporting.py .
+
+# Establecer el argumento para decidir qué script ejecutar
+ARG SCRIPT_TO_RUN=populate_db.py
+ENV SCRIPT_TO_RUN=${SCRIPT_TO_RUN}
 
 # Comando para ejecutar el script seleccionado
-CMD ['python', "populate_db.py"]
+CMD ["sh", "-c", "python $SCRIPT_TO_RUN"]
